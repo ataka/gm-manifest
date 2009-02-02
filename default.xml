@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="github"
-           fetch="git@git://github.com/"
+           fetch="git://github.com/"
            review="at-aka.blogspot.com" />
   <default revision="master"
            remote="github" />
 
   <project path=".welcome"
     name="ataka/gm-manifest"
-    remote="omap">
+    remote="github">
     <copyfile src="README" dest="README" />
   </project>
 
