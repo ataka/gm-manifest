@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="github"
+           fetch="git@git://github.com/"
+           review="at-aka.blogspot.com" />
+  <default revision="master"
+           remote="github" />
+
+  <project path=".welcome"
+    name="ataka/gm-manifest"
+    remote="omap">
+    <copyfile src="README" dest="README" />
+  </project>
+
+  <project path="greader-sbm"
+           name="ataka/greader-sbm" remote="github" />
+  <project path="greader-show-original"
+           name="ataka/greader-show-original" remote="github" />
+</manifest>
