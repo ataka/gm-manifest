@@ -11,6 +11,6 @@
     <copyfile src="README" dest="README" />
   </project>
 
-  <project path="greader-sbm" />
-  <project path="greader-show-original" />
+  <project name="greader-sbm" />
+  <project name="greader-show-original" />
 </manifest>
